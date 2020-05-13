@@ -197,7 +197,7 @@ section {
   background-color: #34495e;
   background-attachment: fixed;
   z-index: 9;
-  margin-right: -30px;
+  /* margin-right: -30px; */
   /* opacity: 0.1; */
 }
 .home h1 {
