@@ -401,11 +401,11 @@ textarea::placeholder {
   margin: 20px 0;
   font-size: 35px;
 }
-#autonomous {
+/* #autonomous {
   font-family: "Geo", sans-serif;
   margin: 20px 0;
   font-size: 45px;
-}
+} */
 #lift {
   font-family: "Indie Flower", cursive;
   margin: 20px 0;
@@ -465,8 +465,11 @@ textarea::placeholder {
   #highly {
     font-size: 20px;
   }
-  #autonomous {
+  /* #autonomous {
     font-size: 30px;
-  }
+  } */
 }
 /* ==================================================== */
+#flag {
+  color: #e20ca2;
+}
