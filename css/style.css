@@ -224,12 +224,12 @@ section {
 /* Section Title */
 .section-title {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 38px;
   color: #e20ca2;
 }
 .section-title h2 {
   display: inline-block;
-  font-size: 28px;
+  font-size: 35px;
   border-bottom: 1px solid;
   text-transform: uppercase;
   padding: 0 0 10px;
@@ -248,6 +248,7 @@ section {
 .about-info {
   line-height: 60px;
   font-size: 30px;
+  letter-spacing: 1px;
 }
 
 .about-info .downloadbtn {
@@ -311,6 +312,9 @@ section {
   font-size: 28px;
   margin-bottom: 15px;
 }
+/* .service .col h3:hover {
+  color: #e20ca2;
+} */
 .service .col p {
   line-height: 28px;
 }
@@ -384,8 +388,14 @@ section {
   color: #fff;
 }
 textarea::placeholder {
-  padding-top: 70px;
-  text-align: center;
+  /* padding-top: 70px; */
+  /* text-align: center; */
+}
+
+/* FOOTER SECTION */
+.footer {
+  height: 100px;
+  background-color: #e20ca2;
 }
 
 /* QUERIES */
@@ -398,13 +408,22 @@ textarea::placeholder {
   }
   .about-info {
     font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
   }
   .about-info .downloadbtn {
     padding: 0px 22px;
   }
   .gallary,
-  .contact {
+  .contact,
+  .service {
     width: 90%;
+  }
+  .service .col {
+    width: 100%;
+  }
+  .gallary-info .col {
+    width: 100%;
   }
 }
 /* ==================================================== */
