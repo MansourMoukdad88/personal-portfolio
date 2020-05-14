@@ -154,13 +154,14 @@ header {
   text-align: center;
   padding: 25px 0;
   z-index: 99;
+  font-size: 27px;
 }
 
 header ul li a {
   color: #ffffff;
   text-transform: uppercase;
   text-decoration: none;
-  margin: 0 5%;
+  margin: 0 3%;
   visibility: hidden;
 }
 header ul li a:hover,
@@ -251,7 +252,7 @@ section {
 
 .about-info .downloadbtn {
   display: inline-block;
-  padding: 15px 35px;
+  padding: 1px 35px;
   background-color: #ffffff10;
   border: 1px solid #e20ca2;
   border-radius: 50px;
@@ -366,9 +367,10 @@ section {
 .contact-info .messageField {
   height: 200px;
   color: #fff;
+  border-radius: 20px;
 }
 .contact-info .submitButton {
-  background-color: #000;
+  background-color: #e20ca2;
   color: #fff;
   height: 50px;
   font-weight: 600;
@@ -378,7 +380,7 @@ section {
 }
 .contact-info .submitButton:hover,
 .contact-info .submitButton:active {
-  background-color: #e20ca2;
+  background-color: #9e006f;
   color: #fff;
 }
 textarea::placeholder {
@@ -387,5 +389,19 @@ textarea::placeholder {
 }
 
 /* QUERIES */
-
+@media only screen and (max-width: 600px) {
+  header {
+    font-size: 16px;
+  }
+  .home h1 {
+    font-size: 50px;
+  }
+  .about-info .downloadbtn {
+    padding: 0px 22px;
+  }
+  .gallary,
+  .contact {
+    width: 90%;
+  }
+}
 /* ==================================================== */
