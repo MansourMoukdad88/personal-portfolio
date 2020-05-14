@@ -253,7 +253,7 @@ section {
 .about-info .downloadbtn {
   display: inline-block;
   padding: 1px 35px;
-  background-color: #ffffff10;
+  background-color: #e20ca2;
   border: 1px solid #e20ca2;
   border-radius: 50px;
   color: #fff;
@@ -266,7 +266,7 @@ section {
 }
 .about-info .downloadbtn:hover,
 .about-info .downloadbtn:active {
-  background-color: #e20ca2;
+  background-color: #9e006f;
 }
 /* .timeline {
   margin-top: 50px;
@@ -395,6 +395,9 @@ textarea::placeholder {
   }
   .home h1 {
     font-size: 50px;
+  }
+  .about-info {
+    font-size: 20px;
   }
   .about-info .downloadbtn {
     padding: 0px 22px;
