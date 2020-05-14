@@ -269,21 +269,6 @@ section {
 .about-info .downloadbtn:active {
   background-color: #9e006f;
 }
-/* .timeline {
-  margin-top: 50px;
-  display: flex;
-}
-.timeline .col {
-  margin: 5px;
-  padding: 25px 5px;
-  border: 1px solid #ffffff30;
-  float: left;
-}
-.timeline h6 {
-  margin: 15px 0 0;
-  font-size: 14px;
-  line-height: 24px;
-} */
 
 /* Service Section */
 
@@ -398,6 +383,50 @@ textarea::placeholder {
   background-color: #e20ca2;
 }
 
+/* ****************************************************************** */
+/* IDs */
+#solver {
+  /* color: aqua; */
+  font-family: "Orbitron", sans-serif;
+  letter-spacing: 5px;
+  margin: 20px 0;
+}
+#trust {
+  font-family: "Black Ops One", cursive;
+  margin: 20px 0;
+  font-size: 30px;
+}
+#motivated {
+  font-family: "Audiowide", cursive;
+  margin: 20px 0;
+  font-size: 35px;
+}
+#autonomous {
+  font-family: "Geo", sans-serif;
+  margin: 20px 0;
+  font-size: 45px;
+}
+#lift {
+  font-family: "Indie Flower", cursive;
+  margin: 20px 0;
+  font-size: 45px;
+}
+#jump {
+  font-family: "Orbitron", sans-serif;
+  margin: 20px 0;
+}
+#problem {
+  font-family: "Poiret One", cursive;
+  margin: 20px 0;
+  font-size: 45px;
+}
+#highly {
+  font-family: "Audiowide", cursive;
+  margin: 20px 0;
+  font-size: 35px;
+}
+/* ****************************************************************** */
+
 /* QUERIES */
 @media only screen and (max-width: 600px) {
   header {
@@ -410,6 +439,7 @@ textarea::placeholder {
     font-size: 20px;
     line-height: 30px;
     letter-spacing: 1px;
+    width: 90%;
   }
   .about-info .downloadbtn {
     padding: 0px 22px;
@@ -423,7 +453,20 @@ textarea::placeholder {
     width: 100%;
   }
   .gallary-info .col {
-    width: 100%;
+    width: 47.2%;
+    margin: 1%;
+  }
+  #solver,
+  #trust,
+  #motivated,
+  #lift,
+  #jump,
+  #problem,
+  #highly {
+    font-size: 20px;
+  }
+  #autonomous {
+    font-size: 30px;
   }
 }
 /* ==================================================== */
