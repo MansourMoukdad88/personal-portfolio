@@ -8,7 +8,6 @@
       href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&display=swap"
       rel="stylesheet"
     />
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"> -->
     <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Black+Ops+One&family=Geo:ital@0;1&family=Indie+Flower&family=Orbitron&family=Pacifico&family=Poiret+One&family=Righteous&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@300&display=swap" rel="stylesheet">
 
@@ -19,6 +18,8 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"
     />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+    <script src="js/script.js"></script>
   </head>
   <body>
     <div id="particles-js"></div>
@@ -318,10 +319,11 @@
         </h2>
       </div>
       <div class="contact-info">
-        <form>
+        <form action="https://formspree.io/moukdad1@gmail.com"
+        method="POST">
           <input
             type="text"
-            class="textField wow fadeInUp"
+            class="your-name textField wow fadeInUp"
             data-wow-duration="1.3s"
             data-wow-delay=".9s"
             placeholder="You Name"
@@ -329,21 +331,22 @@
           />
           <input
             type="text"
-            class="textField wow fadeInUp"
+            class="email textField wow fadeInUp"
             data-wow-duration="1.3s"
             data-wow-delay="1s"
             placeholder="Your Email Address"
             required=""
           />
           <textarea
-            class="textField messageField wow fadeInUp"
+            class="message textField messageField wow fadeInUp"
             data-wow-duration="1.3s"
             data-wow-delay="1.1s"
             placeholder="Your Message Here"
           ></textarea>
+          <div class="status"></div>
           <input
             type="submit"
-            class="textField submitButton wow fadeInUp"
+            class="submit textField submitButton wow fadeInUp"
             data-wow-duration="1.3s"
             data-wow-delay="1.5s"
             value="Send Message"
