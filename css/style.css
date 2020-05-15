@@ -148,13 +148,15 @@ table {
 /* Header */
 header {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 40%;
+  left: -47%;
   width: 100%;
   text-align: center;
   padding: 25px 0;
   z-index: 99;
-  font-size: 27px;
+  font-size: 20px;
+  transform: rotate(90deg);
+  /* border-top: 1px solid #e20ca2; */
 }
 
 header ul li a {
@@ -172,8 +174,8 @@ header ul li a:active {
 /* Header Sticky Style */
 .fixed {
   position: fixed;
-  top: 0;
-  left: 0;
+  top: 40%;
+  left: -47%;
   background-color: #000;
   z-index: 999;
 }
@@ -234,7 +236,13 @@ section {
   text-transform: uppercase;
   padding: 0 0 10px;
 }
-
+h6 {
+  position: absolute;
+  top: 2%;
+  left: 73%;
+  color: #e20ca2;
+  transform: rotate(90deg);
+}
 /* About Section */
 
 .about-info {
@@ -379,8 +387,9 @@ textarea::placeholder {
 
 /* FOOTER SECTION */
 .footer {
-  height: 100px;
+  height: 60px;
   background-color: #e20ca2;
+  /* z-index: 999; */
 }
 
 /* ****************************************************************** */
@@ -433,7 +442,7 @@ textarea::placeholder {
     font-size: 16px;
   }
   .home h1 {
-    font-size: 50px;
+    font-size: 40px;
   }
   .about-info {
     font-size: 20px;
@@ -446,8 +455,9 @@ textarea::placeholder {
   }
   .gallary,
   .contact,
-  .service {
-    width: 90%;
+  .service,
+  .about-info {
+    width: 75%;
   }
   .service .col {
     width: 100%;
@@ -468,6 +478,9 @@ textarea::placeholder {
   /* #autonomous {
     font-size: 30px;
   } */
+  .footer {
+    height: 10px;
+  }
 }
 /* ==================================================== */
 #flag {
