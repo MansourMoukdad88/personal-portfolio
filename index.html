@@ -22,9 +22,10 @@
     <script src="js/script.js"></script>
   </head>
   <body>
-    <div id="particles-js"></div>
+    <!-- <div id="particles-js"></div> -->
     <!-- Header -->
     <header>
+
       <ul>
         <li>
           <a
@@ -77,6 +78,8 @@
       data-wow-duration="2s"
       data-wow-delay="1.2s"
     >
+    <h6 style="font-size: 20px;">Creativity Is Intelligence Having Fun<span style="font-size: 12px; font-style: italic;">- Albert Einstein</span></h6>
+
       <div class="name">
         <h1  style="text-transform: none; " class="wow fadeInUp" data-wow-duration="2s" data-wow-delay="1.3s">Hi, I'm</h1>
         <!-- <h1 class="wow fadeInUp" data-wow-duration="2s" data-wow-delay="1.9s">I'm</h1> -->
@@ -87,7 +90,6 @@
         <h5 class="wow fadeInDown" data-wow-duration="4s" data-wow-delay="1.4s">
           Full-Stack Software Developer
         </h5>
-        <h6 style="font-size: 20px;">Creativity Is Intelligence Having Fun<span style="font-size: 12px; font-style: italic;">- Albert Einstein</span></h6>
       </div>
     </section>
 
@@ -359,9 +361,9 @@
     </section>
 
     <!-- FOOTER SECTION -->
-    <section id="footer" class="footer">
+    <!-- <section id="footer" class="footer">
       <h1 style="text-align: center;">Codings.io</h1>
-    </section>
+    </section> -->
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
@@ -377,10 +379,13 @@
       });
       $(window).scroll(function () {
         var sticky = $("header");
+        // var h6 = $("h6");
         if ($(window).scrollTop() >= 100) {
           sticky.addClass("fixed");
+          // h6.addClass("fixed");
         } else {
           sticky.removeClass("fixed");
+          // h6.removeClass("fixed");
         }
       });
     </script>

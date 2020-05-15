@@ -149,14 +149,14 @@ table {
 header {
   position: absolute;
   top: 40%;
-  left: -47%;
+  left: 47%;
   width: 100%;
   text-align: center;
   padding: 25px 0;
   z-index: 99;
   font-size: 20px;
   transform: rotate(90deg);
-  /* border-top: 1px solid #e20ca2; */
+  border-bottom: 1px solid #e20ca2;
 }
 
 header ul li a {
@@ -175,8 +175,10 @@ header ul li a:active {
 .fixed {
   position: fixed;
   top: 40%;
-  left: -47%;
+  left: 47%;
   background-color: #000;
+  transform: rotate(90deg);
+
   z-index: 999;
 }
 
@@ -237,11 +239,12 @@ section {
   padding: 0 0 10px;
 }
 h6 {
-  position: absolute;
-  top: 2%;
-  left: 90%;
+  position: fixed;
+  top: 40%;
+  right: 80%;
   color: #e20ca2;
-  transform: rotate(90deg);
+  /* transform: rotate(0deg); */
+  transform: rotate(-90deg);
 }
 /* About Section */
 
@@ -482,6 +485,14 @@ textarea::placeholder {
     height: 10px;
   }
 }
+@media only screen and (max-width: 700px) {
+  .service .col {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
 /* ==================================================== */
 #flag {
   color: #e20ca2;
