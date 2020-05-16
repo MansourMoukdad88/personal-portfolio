@@ -655,7 +655,7 @@ textarea::placeholder {
   .contact,
   .service,
   .about-info {
-    width: 100%;
+    width: 87%;
   }
   .service .col {
     width: 100%;
@@ -688,7 +688,8 @@ textarea::placeholder {
   }
   header ul li a {
     visibility: hidden;
-    color: #000000;
+    color: #e20ca2;
+    background-color: black;
   }
   div.screen {
     visibility: visible;
@@ -709,7 +710,8 @@ textarea::placeholder {
   }
   header ul li a {
     visibility: hidden;
-    color: #000000;
+    color: #e20ca2;
+    background-color: black;
   }
   div.screen {
     visibility: visible;
