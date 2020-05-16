@@ -133,7 +133,7 @@ div.circle.expand {
 }
 div.menu {
   height: 568px;
-  width: 320px;
+  width: 520px;
   position: absolute;
   top: 0px;
   left: 0px;
@@ -142,7 +142,7 @@ div.menu ul li {
   list-style: none;
   position: absolute;
   top: 50px;
-  left: 0;
+  left: 50px;
   opacity: 0;
   width: 320px;
   text-align: center;
@@ -155,12 +155,13 @@ div.menu ul li {
 }
 div.menu ul li a {
   display: block;
-  margin: 30px 0 30px 30px;
+  margin: 30px -100px 30px 60px;
   text-align: center;
   color: #e9118f;
   text-transform: uppercase;
   text-decoration: none;
-  letter-spacing: 3px;
+  letter-spacing: 5px;
+  font-size: 40px;
 }
 
 div.menu li.animate {
@@ -689,7 +690,7 @@ textarea::placeholder {
   header ul li a {
     visibility: hidden;
     color: #e20ca2;
-    background-color: black;
+    background-color: transparent;
   }
   div.screen {
     visibility: visible;
@@ -711,7 +712,7 @@ textarea::placeholder {
   header ul li a {
     visibility: hidden;
     color: #e20ca2;
-    background-color: black;
+    background-color: transparent;
   }
   div.screen {
     visibility: visible;
