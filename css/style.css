@@ -700,6 +700,17 @@ textarea::placeholder {
     justify-content: center;
     text-align: center;
   }
+  h6,
+  header {
+    visibility: hidden;
+  }
+  .fixed {
+    visibility: hidden;
+  }
+  header ul li a {
+    visibility: hidden;
+    color: #000000;
+  }
   div.screen {
     visibility: visible;
   }
