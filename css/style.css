@@ -7,12 +7,12 @@ div.screen {
   height: 100vh;
   position: absolute;
   z-index: 99999;
-  visibility: hidden;
+  /* visibility: hidden; */
 }
 
 div.burger {
-  height: 30px;
-  width: 40px;
+  height: 31px;
+  width: 55px;
   position: absolute;
   top: 20px;
   left: 30px;
@@ -355,6 +355,7 @@ header {
   font-size: 20px;
   transform: rotate(90deg);
   border-bottom: 1px solid #e20ca2;
+  visibility: hidden;
 }
 
 header ul li a {
@@ -378,6 +379,7 @@ header ul li a:active {
   transform: rotate(90deg);
 
   z-index: 999;
+  visibility: hidden;
 }
 
 section {
