@@ -347,7 +347,7 @@ table {
 header {
   position: absolute;
   top: 40%;
-  left: 48%;
+  left: 47%;
   width: 100%;
   text-align: center;
   padding: 25px 0;
@@ -638,6 +638,8 @@ textarea::placeholder {
 /* ****************************************************************** */
 
 /* QUERIES */
+/* MEDIA 600PX */
+
 @media only screen and (max-width: 600px) {
   header {
     font-size: 16px;
@@ -667,6 +669,28 @@ textarea::placeholder {
     width: 47.2%;
     margin: 1%;
   }
+
+  .footer {
+    height: 10px;
+  }
+  h6 {
+    visibility: hidden;
+  }
+  #side-header {
+    visibility: hidden !important;
+  }
+  .fixed {
+    visibility: hidden;
+  }
+  #side-header ul li a {
+    visibility: hidden;
+  }
+  div.screen {
+    visibility: visible;
+  }
+  div.menu ul li a {
+    z-index: 999999999;
+  }
   #solver,
   #trust,
   #motivated,
@@ -679,45 +703,26 @@ textarea::placeholder {
   /* #autonomous {
     font-size: 30px;
   } */
-  .footer {
-    height: 10px;
-  }
-  h6,
-  header {
-    visibility: hidden;
-  }
-  .fixed {
-    visibility: hidden;
-  }
-  header ul li a {
-    visibility: hidden;
-    color: #fff;
-    background-color: transparent;
-  }
-  div.screen {
-    visibility: visible;
-  }
-  div.menu ul li a {
-    z-index: 999999999;
-  }
 }
+
+/* MEDIA 700PX */
 @media only screen and (max-width: 700px) {
   .service-info .col {
     width: 100%;
     justify-content: center;
     text-align: center;
   }
-  h6,
-  header {
+  h6 {
+    visibility: hidden;
+  }
+  #side-header {
     visibility: hidden;
   }
   .fixed {
     visibility: hidden;
   }
-  header ul li a {
+  #side-header ul li a {
     visibility: hidden;
-    color: #fff;
-    background-color: transparent;
   }
   div.screen {
     visibility: visible;
@@ -726,5 +731,17 @@ textarea::placeholder {
 
 /* ==================================================== */
 #flag {
+  color: #e20ca2;
+}
+/* ===================================================== */
+
+.links a i {
+  margin-top: -20px;
+  margin-bottom: 20px;
+  margin-right: 4%;
+  font-size: 40px;
+  color: #fff;
+}
+.links a i:hover {
   color: #e20ca2;
 }
