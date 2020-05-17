@@ -691,8 +691,8 @@ textarea::placeholder {
   }
   header ul li a {
     visibility: hidden;
-    /* color: #e20ca2;
-    background-color: transparent; */
+    color: #fff;
+    background-color: transparent;
   }
   div.screen {
     visibility: visible;
@@ -716,7 +716,7 @@ textarea::placeholder {
   }
   header ul li a {
     visibility: hidden;
-    color: #e20ca2;
+    color: #fff;
     background-color: transparent;
   }
   div.screen {
