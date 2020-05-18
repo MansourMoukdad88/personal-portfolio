@@ -401,7 +401,7 @@ section {
   background-position: center;
   background-color: #34495e;
   background-attachment: fixed;
-  z-index: 9;
+  z-index: 10;
   height: 100%;
   /* margin-right: -30px; */
   /* opacity: 0.1; */
@@ -543,7 +543,15 @@ h6 {
   width: 60%;
   margin: 0 auto;
   padding: 50px 0;
-  z-index: 99;
+}
+#contact {
+  z-index: 999999999;
+}
+.elfsight-app-ab548932-7d96-43a6-ba72-af0c02bc2b89 {
+  z-index: 999999999;
+}
+.eapps-form-floating-button-position-right.eapps-form-floating-button-visible {
+  z-index: 999999999;
 }
 .contact-info {
   display: flex;
@@ -563,8 +571,9 @@ h6 {
   font-size: 16px;
   border-radius: 50px;
   outline: none;
+  z-index: 9999999999999999999;
 }
-.contact-info .messageField {
+/* .contact-info .messageField {
   height: 200px;
   color: #fff;
   border-radius: 20px;
@@ -582,11 +591,7 @@ h6 {
 .contact-info .submitButton:active {
   background-color: #9e006f;
   color: #fff;
-}
-textarea::placeholder {
-  /* padding-top: 70px; */
-  /* text-align: center; */
-}
+} */
 
 /* FOOTER SECTION */
 .footer {
@@ -600,6 +605,7 @@ textarea::placeholder {
   color: #34495e;
   font-size: 30px;
   margin: 1%;
+  z-index: 99999999999999999999;
 }
 
 /* ****************************************************************** */
@@ -680,7 +686,11 @@ textarea::placeholder {
   }
 
   .footer {
-    height: 10px;
+    height: 60px;
+    font-size: 16px;
+  }
+  .footer div a i {
+    font-size: 10px;
   }
   h6 {
     visibility: hidden;
@@ -711,6 +721,12 @@ textarea::placeholder {
   }
   /* #autonomous {
     font-size: 30px;
+  } */
+  /* #links {
+    font-size: 20px;
+  }
+  #links span {
+    font-size: 20px;
   } */
 }
 
@@ -750,7 +766,38 @@ textarea::placeholder {
   margin-right: 4%;
   font-size: 40px;
   color: #fff;
+  z-index: 99999999999999999999;
 }
 .links a i:hover {
   color: #e20ca2;
+}
+#links {
+  z-index: 9999999;
+}
+
+#footer {
+  z-index: 9999999;
+}
+
+/* ScrollBar */
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #e20ca2;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #fff;
+  border-radius: 50px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #f00;
 }
