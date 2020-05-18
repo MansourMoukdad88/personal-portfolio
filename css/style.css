@@ -379,11 +379,11 @@ header ul li a:active {
   transform: rotate(90deg);
 
   z-index: 999;
-  visibility: hidden;
+  /* visibility: hidden; */
 }
 
 section {
-  padding: 60px 0;
+  /* padding: 60px 0; */
   /* height: 100%; */
   position: relative;
 }
@@ -590,9 +590,16 @@ textarea::placeholder {
 
 /* FOOTER SECTION */
 .footer {
-  height: 60px;
-  background-color: #e20ca2;
+  /* height: 60px; */
+  background-color: #fff;
+  color: #000;
+  text-align: center;
   /* z-index: 999; */
+}
+.footer .links a i {
+  color: #34495e;
+  font-size: 30px;
+  margin: 1%;
 }
 
 /* ****************************************************************** */
