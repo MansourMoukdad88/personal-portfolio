@@ -312,7 +312,7 @@ body {
   line-height: 1;
   color: #fff;
   background-color: #000;
-  font-family: "PT Sans Narrow", sans-serif;
+  font-family: 'PT Sans Narrow', sans-serif;
   box-sizing: border-box;
 }
 ol,
@@ -327,7 +327,7 @@ blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: "";
+  content: '';
   content: none;
 }
 table {
@@ -496,7 +496,7 @@ h6 {
   margin: 50px 0;
 }
 .service .col {
-  width: 26%;
+  width: 25%;
   margin: 25px 30px;
   text-align: center;
 }
@@ -566,7 +566,7 @@ h6 {
   background-color: transparent;
   padding: 15px 15px;
   margin-bottom: 15px;
-  font-family: "PT Sans Narrow", sans-serif;
+  font-family: 'PT Sans Narrow', sans-serif;
   color: #fff;
   font-size: 16px;
   border-radius: 50px;
@@ -612,17 +612,17 @@ h6 {
 /* IDs */
 #solver {
   /* color: aqua; */
-  font-family: "Orbitron", sans-serif;
+  font-family: 'Orbitron', sans-serif;
   letter-spacing: 5px;
   margin: 20px 0;
 }
 #trust {
-  font-family: "Black Ops One", cursive;
+  font-family: 'Black Ops One', cursive;
   margin: 20px 0;
   font-size: 30px;
 }
 #motivated {
-  font-family: "Audiowide", cursive;
+  font-family: 'Audiowide', cursive;
   margin: 20px 0;
   font-size: 35px;
 }
@@ -632,21 +632,21 @@ h6 {
   font-size: 45px;
 } */
 #lift {
-  font-family: "Indie Flower", cursive;
+  font-family: 'Indie Flower', cursive;
   margin: 20px 0;
   font-size: 45px;
 }
 #jump {
-  font-family: "Orbitron", sans-serif;
+  font-family: 'Orbitron', sans-serif;
   margin: 20px 0;
 }
 #problem {
-  font-family: "Poiret One", cursive;
+  font-family: 'Poiret One', cursive;
   margin: 20px 0;
   font-size: 45px;
 }
 #highly {
-  font-family: "Audiowide", cursive;
+  font-family: 'Audiowide', cursive;
   margin: 20px 0;
   font-size: 35px;
 }
