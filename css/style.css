@@ -794,10 +794,11 @@ h6 {
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: #fff;
-  border-radius: 50px;
+  border-radius: 100%;
+  opacity: 0.8;
 }
 
 /* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
+/* ::-webkit-scrollbar-thumb:hover {
   background: #f00;
-}
+} */
